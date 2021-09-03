@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "dan"
+  },
+  "text": {
+    "more": "<a href='../main-network'>Main Network</a></br><a href='../community-influence'>Inter-community Influence Network</a></br><h3>Community Networks ([group number] [community name]):</h3><a href='../6'>6 Games</a></br><a href='../7'>7 entertainment</a></br><a href='../14'>14 usanews</a></br><a href='../4'>4 NoStupidQuestions</a></br><a href='../13'>13 environment</a></br><a href='../2'>2 democrats</a></br><a href='../15'>15 GuiltyPleasureMusic</a></br><a href='../20'>20 books</a></br><a href='../3'>3 economy</a></br><a href='../22'>22 HistoryPorn</a></br><a href='../0'>0 woahdude</a></br><a href='../16'>16 macbook</a></br><a href='../9'>9 Republican</a>",
+    "intro": "<a href='../main-network'>Back to the main network.</a>",
+    "title": "Community Network: economy"
+  },
+  "legend": {
+    "edgeLabel": "Similar Users (sized by average % of front page authored by shared users)",
+    "colorLabel": "Community (a subreddit's userbase is more similar to other subreddits within its community than without)",
+    "nodeLabel": "Subreddit (sized by number of connected subreddits)"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Modularity",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "line",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#eee",
+      "labelThreshold": 5.5,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 10,
+      "minEdgeSize": 1,
+      "minNodeSize": 1,
+      "maxNodeSize": 12
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}

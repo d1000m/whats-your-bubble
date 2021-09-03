@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "dan"
+  },
+  "text": {
+    "more": "",
+    "intro": "",
+    "title": "What's Your Bubble? </br> (Project 2B WIP Visualization)"
+  },
+  "legend": {
+    "edgeLabel": "shared influence",
+    "colorLabel": "subreddit community",
+    "nodeLabel": "subreddit"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Modularity",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#eee",
+      "labelThreshold": 6,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 20,
+      "minEdgeSize": 2,
+      "minNodeSize": 1,
+      "maxNodeSize": 12
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.3
+    }
+  }
+}
